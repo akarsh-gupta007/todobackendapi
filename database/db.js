@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 const Connection = () => {
-    const MONGODB_URI = `mongodb+srv://akarshgupta007:Ak161998@cluster0.aewqbvm.mongodb.net/?retryWrites=true&w=majority  `;
+    const MONGODB_URI = `mongodb+srv://akarshg222:akarsh@cluster0.pwq8kwf.mongodb.net/?retryWrites=true&w=majority`;
     mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
     mongoose.connection.on('connected', () => {
         console.log('Database connected Successfully');
